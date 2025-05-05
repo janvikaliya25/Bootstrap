@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav .collapse ul li a:hover{
+  color: brown;
+}
+#a{
+    background-image: url(image/h1_hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+#a1{
+    margin-top: 5%;
+    width: 35%;
+    margin-left: 10%;
+    position: absolute;
+}
+#a1 h1{
+    color: rgba(2, 2, 77, 0.841);
+}
+#a1 #btn1{
+    height: 50px;
+    width: 150px;
+}
+#a1 #btn1:hover{
+    background-color: brown;
+    color: white;
+}
+#abt #des{
+    width: 40%;
+}
+#abt #cons{
+    width: 30%;
+}
+#sr{
+    height: 650px;
+}
+#services{
+    position: relative;
+    height: 450px;
+    width: 30%;
+}
+#services::before{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    content: '';
+    background-color: #ec5b53;
+    height: 0;
+    transition: 1s;
+    z-index: -1;
+}
+#services:hover::before{
+    height: 100%;
+}
+#services:hover #vr{
+    background-color: white;
+}
+#services h3{
+    color: navy;
+}
+#services:hover h3{
+    color: white;
+}
+#services p{
+    color: gray;
+    padding: 15px;
+}
+#services:hover p{
+    color: white;
+}
+#vr{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #f9e6e5;
+    margin-top: 50px;
+    margin-left: 35%;
+}
+#d{
+    height: 1200px;
+    width: 80%;
+    margin-top: 100px;
+}
+#d #csk{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#d #csk #gt1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#d #csk #gt1 #gt11{
+    height: 100%;
+    width: 62%;
+    overflow: hidden;
+}
+#d #csk #gt1 #gt11 img{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+#d #csk #gt1 #gt11 img:hover{
+    transform: scale(1.2);
+}
+#d #csk #gt1 #gt111{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#d #csk #gt1 #gt111 #gt12{
+    height: 47%;
+    width: 100%;
+    overflow: hidden;
+}
+#d #csk #gt1 #gt111 #gt12 img{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+#d #csk #gt1 #gt111 #gt12 img:hover{
+    transform: scale(1.2);
+}
+#d #csk #gt2{
+    height: 37%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#d #csk #gt2 #gt22{
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+}
+#d #csk #gt2 #gt22 img{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+#d #csk #gt2 #gt22 img:hover{
+    transform: scale(1.2);
+}
+#e{
+    background-image: url(image/section_bg02.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    height: 350px;
+}
+#e #btn3{
+    margin-left: 43%;
+    padding: 10px;
+    width: 180px;
+}
+#f{
+    height: 500px;
+    margin-top: 100px;
+}
+#f #carouselExampleSlidesOnly{
+    width: 50%;
+}
+#g{
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+swiper-container {
+  width: 80%;
+  height: 100%;
+}
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#g swiper-container swiper-slide img{
+    opacity: 0.3;
+}
+#g swiper-container swiper-slide:hover img{
+    opacity: 1;
+}
+#h{
+    height: 600px;
+    background-color: #f9ebeb;
+    margin-top: 100px;
+}
+#h #perent #childe{
+    width: 50%;
+}
+#h #btn4{
+    height: 50px;
+}
+
+
+
+
+
+@media (width:992px) {
+    #a1{
+        height: auto;
+        width: 50%;
+        /* border: 1px solid black; */
+        margin-left: 0;
+    }
+    #btnhd{
+        display: none;
+    }
+    #abt{
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        /* flex-direction: column; */
+    }
+    #abt #des{
+        height: auto;
+        width: 60%;
+    }
+    #abt #cons{
+        height: auto;
+        width: 30%;
+    }
+    #sr{
+        height: auto;
+        width: 100%;
+    }
+    #sr #sw{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #sr #sw #services{
+        height: 400px;
+        width: 48%;
+        margin-top: 30px;
+    }
+    #d{
+       height: auto;
+       width: 100%; 
+    }
+    #d #csk{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1 #gt11{
+        height: 400px;
+        width: 100%;
+    }
+    #d #csk #gt1 #gt111{
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: row;
+    }
+    #d #csk #gt1 #gt111 #gt12{
+        height: 300px;
+        width: 48%;
+        margin-top: 20px;
+    }
+    #d #csk #gt2{
+        /* margin-top: 30px; */
+        flex-wrap: wrap;
+    }
+    #d #csk #gt2 #gt22{
+        height: 45%;
+        width: 30%;
+        margin-top: 20px;
+    }
+    #e{
+        height: 300px;
+    }
+    #e #btn3{
+        margin-left: 40%;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #carouselExampleSlidesOnly{
+        height: auto;
+        width: 100%;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+    }
+    #g swiper-container{
+        height: 200px;
+        width: 100%;
+    }
+    #g swiper-container swiper-slide img{
+        height: auto;
+        width: 100%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+    }
+    #h #perent{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #h #perent #childe{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+
+@media (width:768px) {
+    #a1{
+        height: auto;
+        width: 65%;
+        /* border: 1px solid black; */
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    #btnhd{
+        display: none;
+    }
+    #abt{
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        /* flex-direction: column; */
+    }
+    #abt #des{
+        height: auto;
+        width: 60%;
+    }
+    #abt #cons{
+        height: auto;
+        width: 30%;
+    }
+    #sr{
+        height: auto;
+        width: 100%;
+    }
+    #sr #sw{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #sr #sw #services{
+        height: 400px;
+        width: 48%;
+        margin-top: 30px;
+    }
+    #d{
+       height: auto;
+       width: 100%; 
+    }
+    #d #csk{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1 #gt11{
+        height: 300px;
+        width: 100%;
+    }
+    #d #csk #gt1 #gt111{
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #d #csk #gt1 #gt111 #gt12{
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #d #csk #gt2{
+        /* margin-top: 30px; */
+        flex-wrap: wrap;
+    }
+    #d #csk #gt2 #gt22{
+        height: 45%;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #e{
+        height: 300px;
+    }
+    #e #btn3{
+        margin-left: 40%;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #carouselExampleSlidesOnly{
+        height: auto;
+        width: 100%;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+    }
+    #g swiper-container{
+        height: 200px;
+        width: 100%;
+    }
+    #g swiper-container swiper-slide img{
+        height: auto;
+        width: 100%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+    }
+    #h #perent{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #h #perent #childe{
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+
+
+@media (width:576px) {
+    #a1{
+        height: auto;
+        width: 80%;
+        /* border: 1px solid black; */
+        margin-left: 0;
+    }
+    #btnhd{
+        display: none;
+    }
+    #abt{
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        flex-direction: column;
+    }
+    #abt #des{
+        height: auto;
+        width: 100%;
+    }
+    #abt #cons{
+        height: auto;
+        width: 100%;
+    }
+    #sr{
+        height: auto;
+        width: 100%;
+    }
+    #sr #sw{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #sr #sw #services{
+        height: 400px;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    #d{
+       height: auto;
+       width: 100%; 
+    }
+    #d #csk{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1 #gt11{
+        height: 300px;
+        width: 100%;
+    }
+    #d #csk #gt1 #gt111{
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #d #csk #gt1 #gt111 #gt12{
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #d #csk #gt2{
+        /* margin-top: 30px; */
+        flex-wrap: wrap;
+    }
+    #d #csk #gt2 #gt22{
+        height: 45%;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #e{
+        height: 300px;
+    }
+    #e #btn3{
+        margin-left: 35%;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #carouselExampleSlidesOnly{
+        height: auto;
+        width: 100%;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+    }
+    #g swiper-container{
+        height: 200px;
+        width: 100%;
+    }
+    #g swiper-container swiper-slide img{
+        height: auto;
+        width: 100%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+    }
+    #h #perent{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #h #perent #childe{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+
+@media (width:480px) {
+    #a1{
+        height: auto;
+        width: 80%;
+        /* border: 1px solid black; */
+        margin-left: 0;
+    }
+    #btnhd{
+        display: none;
+    }
+    #abt{
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        flex-direction: column;
+    }
+    #abt #des{
+        height: auto;
+        width: 100%;
+    }
+    #abt #cons{
+        height: auto;
+        width: 100%;
+    }
+    #sr{
+        height: auto;
+        width: 100%;
+    }
+    #sr #sw{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #sr #sw #services{
+        height: 450px;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    #d{
+       height: auto;
+       width: 100%; 
+    }
+    #d #csk{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #csk #gt1 #gt11{
+        height: 200px;
+        width: 100%;
+    }
+    #d #csk #gt1 #gt111{
+        height: 450px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #d #csk #gt2{
+        margin-top: 30px;
+    }
+    #e{
+        height: 300px;
+    }
+    #e #btn3{
+        margin-left: 30%;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #carouselExampleSlidesOnly{
+        height: auto;
+        width: 100%;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+    }
+    #g swiper-container{
+        height: 200px;
+        width: 100%;
+    }
+    #g swiper-container swiper-slide img{
+        height: auto;
+        width: 100%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+    }
+    #h #perent{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #h #perent #childe{
+        height: auto;
+        width: 100%;
+    }
+}

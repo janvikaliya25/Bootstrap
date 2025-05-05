@@ -1,0 +1,750 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#a{
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#a #a1{
+    width: 45%;
+    position: absolute;
+    top: 35%;
+    left: 27%;
+}
+#a #a1 #btn1:hover{
+background-color: transparent;
+border: 1px solid #fd9900;
+color: #fd9900;
+}
+#b{
+    margin-top: 100px;
+    height: 600px;
+}
+#b #b11{
+    height: 100%;
+    width: 100%;
+}
+#b #b11 #b1{
+    height: 100%;
+    width: 40%;
+    border-radius: 30px;
+    background-image: url(image/about-bg-sp.png);
+    background-position: center;
+    background-size: cover;
+}
+#b #b11 #b1 img{
+    height: 100%;
+    border-radius: 30px;
+    margin-left: 80px;
+}
+#b #b11 #b2{
+    height: 100%;
+    width: 55%;
+}
+#b #b11 #b2 #b20{
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+}
+#b #b11 #b2 #b20 #childe{
+    height: 100%;
+    width: 48%;
+    position: relative;
+}
+#b #b11 #b2 #b20 #childe img{
+    height: 70px;
+    width: 70px;
+}
+#b #b11 #b2 #b20 #childe #b25{
+    position: absolute;
+    top: 10%;
+    left: 100px;
+}
+#b #b11 #b2 #b20 #childe #b27{
+    position: absolute;
+    top: 35%;
+    left: 100px;
+}
+#c{
+    height: 380px;
+    margin-top: 100px;
+}
+#c #c1{
+    height: 80%;
+    width: 40%;
+}
+#c #c1 #btn3{
+    height: 40px;
+    width: 120px;
+}
+#c #c2{
+    height: 80%;
+    width: 50%;
+}
+#c #c2 #chi{
+    height: 80%;
+    width: 30%;
+}
+#c #c2 #chi h1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border:10px solid #fd9900;
+    padding: 30px;
+    margin-left: 35px;
+}
+#d{
+    margin-top: 100px;
+    height: 1200px;
+}
+#d #d1{
+    height: 1000px;
+    width: 90%;
+}
+#d #d1 #d11{
+    height: 30%;
+    width: 49%;
+    background-color: white;
+    border-radius: 20px;
+}
+#d #d1 #d11 #d122{
+    height: 90%;
+    width: 45%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#d #d1 #d11 #d122 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    transition: 2s;
+}
+#d #d1 #d11:hover #d122 img{
+    transform: scale(1.2);
+}
+#d #d1 #d11 #d133{
+    height: 90%;
+    width: 45%;
+    border-radius: 20px;
+}
+#d #d1 #d11 #d133 #star{
+    transition: 1s;
+}
+#d #d1 #d11:hover #d133 #star{
+    transform: rotateX(360deg);
+}
+#e{
+    height: 500px;
+    background-color: #efeff1;
+    width: 100%;
+}
+#e #e1{
+    height: 70%;
+    width: 40%;
+}
+#e #e2{
+    height: 80%;
+    width: 50%;
+}
+#e #e2 #e23{
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+    transition: 1s;
+}
+#e #e2 #e23:hover{
+    box-shadow: 4px 4px 4px 4px;
+}
+#e #e2 #e23 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+#f{
+    margin-top: 100px;
+    height: 750px;
+}
+#f #f1{
+    height: 500px;
+    width: 90%;
+    margin-top: 50px;
+}
+#f #f1 #f11{
+    height: 100%;
+    width: 31%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#f #f1 #f11 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    transition: 2s;
+}
+#f #f1 #f11 img:hover{
+    transform: scale(1.2);
+}
+#g{
+    height: 600px;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/reservation-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+#g #g1{
+    height: 70%;
+    width: 40%;
+}
+#g #g2{
+    height: 80%;
+    width: 40%;
+    border-radius: 20px;
+}
+#g #g2 input{
+    height: 50px;
+    /* width: 47%; */
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+#g #g2 #btn5{
+    height: 50px;
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+    #a{
+        height: 600px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 70%;
+        left: 15%;
+        top: 25%;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #b #b11{
+       height: auto;
+       width: 100%;
+       flex-direction: column;
+    }
+    #b #b11 #b1{
+        height: 600px;
+        width: 100%;
+        margin-left: 0;
+    }
+    #b #b11 #b2{
+        height: auto;
+        width: 80%;
+    }
+    #b #b11 #b2 #b20{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #b #b11 #b2 #b20 #childe{
+        height: auto;
+        width: 47%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c1{
+        height: auto;
+        width: 90%;
+        margin-top: 30px;
+    }
+    #c #c2{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #c #c2 #chi{
+        height: auto;
+        width: 23%;
+    }
+    #d{
+        height: auto;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        /* flex-direction: column; */
+    }
+    #d #d1 #d11 #d122{
+        height: 300px;
+        width: 45%;
+    }
+    #d #d1 #d11 #d133{
+        height: 250px;
+        width: 45%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1{
+        height: auto;
+        width: 80%;
+    }
+    #e #e2{
+        height: auto;
+        width: 100%;
+    }
+    #e #e2 #e23{
+        width: 45%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #f #f1 #f11{
+        height: 400px;
+        margin-top: 30px;
+        width: 45%;
+        align-self: center;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 40%;
+        margin-top: 30px;
+    }
+    #g #g2{
+        height: auto;
+        width: 50%;
+    }
+}
+
+
+
+
+
+@media (max-width:768px) {
+    #a{
+        height: 600px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 70%;
+        left: 15%;
+        top: 20%;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #b #b11{
+       height: auto;
+       width: 100%;
+       flex-direction: column;
+    }
+    #b #b11 #b1{
+        height: 600px;
+        width: 100%;
+        margin-left: 0;
+    }
+    #b #b11 #b2{
+        height: auto;
+        width: 80%;
+    }
+    #b #b11 #b2 #b20{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #b #b11 #b2 #b20 #childe{
+        height: auto;
+        width: 47%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c1{
+        height: auto;
+        width: 90%;
+        margin-top: 30px;
+    }
+    #c #c2{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #c #c2 #chi{
+        height: auto;
+        width: 30%;
+    }
+    #d{
+        height: auto;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        /* flex-direction: column; */
+    }
+    #d #d1 #d11 #d122{
+        height: 300px;
+        width: 45%;
+    }
+    #d #d1 #d11 #d133{
+        height: 250px;
+        width: 45%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1{
+        height: auto;
+        width: 80%;
+    }
+    #e #e2{
+        height: auto;
+        width: 100%;
+    }
+    #e #e2 #e23{
+        width: 45%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #f #f1 #f11{
+        height: 400px;
+        margin-top: 30px;
+        width: 45%;
+        align-self: center;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 40%;
+        margin-top: 30px;
+    }
+    #g #g2{
+        height: auto;
+        width: 50%;
+    }
+}
+
+
+
+@media (max-width:576px) {
+    #a{
+        height: 500px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+        top: 15%;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #b #b11{
+       height: auto;
+       width: 100%;
+       flex-direction: column;
+    }
+    #b #b11 #b1{
+        height: 500px;
+        width: 100%;
+        margin-left: 0;
+    }
+    #b #b11 #b2{
+        height: auto;
+        width: 100%;
+    }
+    #b #b11 #b2 #b20{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #b #b11 #b2 #b20 #childe{
+        height: auto;
+        width: 100%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c1{
+        height: auto;
+        width: 90%;
+        margin-top: 30px;
+    }
+    #c #c2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c2 #chi{
+        height: auto;
+        width: 50%;
+    }
+    #d{
+        height: auto;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    #d #d1 #d11 #d122{
+        height: 300px;
+        width: 100%;
+    }
+    #d #d1 #d11 #d133{
+        height: 250px;
+        width: 100%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+    }
+    #e #e2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e2 #e23{
+        width: 80%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #f #f1 #f11{
+        height: 450px;
+        margin-top: 30px;
+        width: 80%;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #g #g1{
+        height: auto;
+        width: 80%;
+        margin-top: 30px;
+    }
+    #g #g2{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:480px) {
+    #a{
+        height: 500px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+        top: 15%;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #b #b11{
+       height: auto;
+       width: 100%;
+       flex-direction: column;
+    }
+    #b #b11 #b1{
+        height: 500px;
+        width: 100%;
+        margin-left: 0;
+    }
+    #b #b11 #b2{
+        height: auto;
+        width: 100%;
+    }
+    #b #b11 #b2 #b20{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #b #b11 #b2 #b20 #childe{
+        height: auto;
+        width: 100%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c1{
+        height: auto;
+        width: 90%;
+        margin-top: 30px;
+    }
+    #c #c2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c2 #chi{
+        height: auto;
+        width: 50%;
+    }
+    #d{
+        height: auto;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    #d #d1 #d11 #d122{
+        height: 300px;
+        width: 100%;
+    }
+    #d #d1 #d11 #d133{
+        height: 250px;
+        width: 100%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+    }
+    #e #e2{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e2 #e23{
+        width: 80%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #f #f1 #f11{
+        height: 350px;
+        margin-top: 30px;
+        width: 80%;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #g #g1{
+        height: auto;
+        width: 80%;
+        margin-top: 30px;
+    }
+    #g #g2{
+        height: auto;
+        width: 100%;
+    }
+}

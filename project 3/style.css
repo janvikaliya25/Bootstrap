@@ -1,0 +1,727 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nv{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#nv #navbarSupportedContent ul li a:hover{
+    color: #57ccc3;
+}
+#nv #btn1{
+    background-color: #57ccc3;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+#nv #btn2{
+    background-color: #fd556d;
+    color: white;
+    height: 50px;
+    width: 250px;
+}
+#nv #btn2:hover{
+    background-color: transparent;
+    color: #fd556d;
+    border: 1px solid #fd556d;
+}
+#a{
+    height: 700px;
+    background-image: url(image/home_slider.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#a #a1{
+    width: 40%;
+    top: 25%;
+    left: 10%;
+    position: absolute;
+}
+#a #a1 #btn3{
+    height: 50px;
+    width: 180px;
+    background-color: #fd556d;
+    color: white;
+}
+#a #a1 #btn3:hover{
+    background-color: transparent;
+    border: 1px solid #fd556d;
+    color: #fd556d;
+}
+#a #a1 #btn4{
+    height: 50px;
+    width: 250px;
+    background-color: transparent;
+    color: #57ccc3;
+    border: 1px solid #57ccc3;
+}
+#a #a1 #btn4:hover{
+    background-color: #57ccc3;
+    color: white;
+}
+#b{
+    margin-top: 90px;
+    height: 500px;
+}
+#b #b1{
+    width: 45%;
+}
+#b #b1 #b11{
+    width: 100%;
+    margin-top: 50px;
+}
+#b #b1 #b11 #b122{
+    width: 33.33%;
+}
+#b #b2{
+    width: 40%;
+    height: 430px;
+}
+#b #b2 #b20{
+    height: 80px;
+    width: 70%;
+    background-color: #57ccc3;
+    position: relative;
+}
+#b #b2 #b20 h1{
+    position: absolute;
+    top: 25px;
+    left: 15%;
+}
+#b #b2 input{
+    height: 50px;
+}
+#b #b2 input:hover{
+    border: 2px solid #57ccc3;
+}
+#b #b2 #btn5{
+    background-color: #fd556d;
+    color: white;
+    height: 50px;
+}
+#b #b2  #btn5:hover{
+    background-color: transparent;
+    border: 1px solid #fd556d;
+    color: #fd556d;
+}
+#c{
+    height: 700px;
+    margin-top: 50px;
+    background-color: #f1f2f6;
+}
+#c #c2{
+    height: 100%;
+    width: 50%;
+    background-image: url(image/why_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#c #c1{
+    height: 100%;
+    width: 40%;
+}
+#c #c1 #c11{
+    height: 350px;
+    width: 100%;
+}
+#c #c1 #c11 #c12{
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+#c #c1 #c11 #c12 img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #57ccc3;
+    padding: 15px;
+    margin-top: 20px;
+}
+#c #c1 #c11 #c12 #ot{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+#c #c1 #c11 #c12 #pt{
+    top: 50px;
+    left: 100px;
+    position: absolute;
+}
+#d{
+    height: 200px;
+    background-color: #fd556d;
+    position: relative;
+}
+#d #d1{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#d #d1 #btn6{
+    height: 60px;
+    width: 300px;
+    background-color: #57ccc3;
+    color: white;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+    font-size: 30px;
+    border: none;
+}
+#d #d1 #btn6:hover{
+    background-color: transparent;
+    border: 2px solid #57ccc3;
+    color: #57ccc3;
+}
+#e{
+    margin-top: 100px;
+}
+#e #e1{
+    height: 600px;
+    width: 80%;
+    margin-top: 50px;
+}
+#e #e1 #e11{
+    height: 45%;
+    width: 30%;
+    position: relative;
+}
+#e #e1 #e11::before{
+    position: absolute;
+    content: '';
+    transition: 1s;
+    width: 100%;
+    bottom: 0;
+    height: 0;
+    z-index: -1;
+    left: 0;
+    background-color: #57ccc3;
+}
+#e #e1 #e11:hover::before{
+    height: 100%;
+}
+#e #e1 #e11 img{
+    height: 70px;
+    width: 70px;
+    background-color: #57ccc3;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 35%;
+    transition: 1s;
+}
+#e #e1 #e11:hover img{
+    background-color: gray;
+}
+#e #e1 #e11:hover h6{
+    color: white;
+}
+#e #e1 #e11 #odi{
+    color: gray;
+}
+#e #e1 #e11:hover #odi{
+    color: white;
+}
+#f{
+    height: 650px;
+    background-image: url(image/extra.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 80px;
+}
+#f #f1{
+    position: absolute;
+    height: 550px;
+    width: 25%;
+    top: 50px;
+    left: 50%;
+}
+#f #f1 #btn7{
+    background-color: #fd556d;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+#f #f1 #btn7:hover{
+    background-color: transparent;
+    color: #fd556d;
+    border: 2px solid #fd556d;
+}
+#g{
+    height: 270px;
+    background-image: url(image/newsletter.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#g #g1{
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    width: 45%;
+}
+#g #g1 #in{
+    height: 50px;
+    width: 550px;
+    margin-left: 2.5%;
+    margin-top: 50px;
+    position: relative;
+}
+#g #g1 #btn8{
+    width: 150px;
+    height: 50px;
+    background-color: #fd556d;
+    color: white;
+    position: absolute;
+    right: -100px;
+}
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    #nv #btn1,#nv #btn2{
+        display: none;
+    }
+    #a{
+        height: 600px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 60%;
+        left: 10%;
+        top: 10%;
+    }
+    #a #a1 #btn4{
+        display: none;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #b #b1{
+        height: auto;
+        width: 45%;
+    }
+    #b #b1 #b11{
+        height: auto;
+        width: 100%;
+    }
+    #b #b1 #b11 #b122{
+        height: auto;
+        width: 30%;
+        text-align: center;
+    }
+    #b #b2{
+        height: 400px;
+        width: 45%;
+    }
+    #b #b2 #b20{
+        height: 75px;
+        width: 100%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+    }
+    #c #c2{
+        height: 680px;
+        width: 50%;
+    }
+    #c #c1{
+        height: auto;
+        width: 50%;
+    }
+    #d{
+        height: 200px;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        left: 5%;
+    }
+    #d #d1 #btn6{
+        display: none;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #f{
+        height: 500px;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 50%;
+        left: 35%;
+        top: 5%;
+    }
+    #g{
+        height: 250px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 60%;
+        left: 5%;
+    }
+    #g #g1 #in{
+        width: 400px;
+        margin-left: 60px;
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+    #nv #btn1,#nv #btn2{
+        display: none;
+    }
+    #a{
+        height: 600px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 60%;
+        left: 10%;
+        top: 10%;
+    }
+    #a #a1 #btn4{
+        display: none;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #b #b1{
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #b #b1 #b11{
+        height: auto;
+        width: 100%;
+    }
+    #b #b1 #b11 #b122{
+        height: auto;
+        width: 30%;
+        text-align: center;
+    }
+    #b #b2{
+        height: 400px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #b #b2 #b20{
+        height: 75px;
+        width: 100%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c2{
+        height: 400px;
+        width: 100%;
+    }
+    #c #c1{
+        height: auto;
+        width: 100%;
+    }
+    #d{
+        height: 200px;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        left: 5%;
+    }
+    #d #d1 #btn6{
+        display: none;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #f{
+        height: 500px;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 50%;
+        left: 35%;
+        top: 2.5%;
+    }
+    #g{
+        height: 250px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 60%;
+        left: 5%;
+    }
+    #g #g1 #in{
+        width: 300px;
+    }
+}
+
+
+
+@media (max-width:576px) {
+    #nv #btn1,#nv #btn2{
+        display: none;
+    }
+    #a{
+        height: 500px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 70%;
+        left: 10%;
+        top: 10%;
+    }
+    #a #a1 #btn4{
+        display: none;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #b #b1{
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #b #b1 #b11{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #b #b1 #b11 #b122{
+        height: auto;
+        width: 45%;
+        text-align: center;
+    }
+    #b #b2{
+        height: 400px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #b #b2 #b20{
+        height: 75px;
+        width: 100%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c2{
+        height: 400px;
+        width: 100%;
+    }
+    #c #c1{
+        height: auto;
+        width: 100%;
+    }
+    #d{
+        height: 200px;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        left: 5%;
+    }
+    #d #d1 #btn6{
+        display: none;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 90%;
+        margin-top: 20px;
+    }
+    #f{
+        height: 500px;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+        top: 2.5%;
+    }
+    #g{
+        height: 250px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+    #g #g1 #in{
+        width: 300px;
+    }
+}
+
+
+
+
+@media (max-width:480px) {
+    #nv #btn1,#nv #btn2{
+        display: none;
+    }
+    #a{
+        height: 500px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 80%;
+        left: 10%;
+        top: 10%;
+    }
+    #a #a1 #btn4{
+        display: none;
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #b #b1{
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #b #b1 #b11{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #b #b1 #b11 #b122{
+        height: auto;
+        width: 45%;
+        text-align: center;
+    }
+    #b #b2{
+        height: 400px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #b #b2 #b20{
+        height: 75px;
+        width: 100%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c2{
+        height: 400px;
+        width: 100%;
+    }
+    #c #c1{
+        height: auto;
+        width: 100%;
+    }
+    #d{
+        height: 200px;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        left: 5%;
+    }
+    #d #d1 #btn6{
+        display: none;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 90%;
+        margin-top: 20px;
+    }
+    #f{
+        height: 500px;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+        top: 2.5%;
+    }
+    #g{
+        height: 250px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+    #g #g1 #in{
+        width: 300px;
+    }
+}

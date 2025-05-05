@@ -1,0 +1,702 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nv{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+#nv #navbarSupportedContent ul li a:hover{
+    color: blue;
+}
+#a{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-image: url(image/home-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#a #a1{
+    width: 35%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#a #a1 #btn1{
+    height: 50px;
+    width: 200px;
+}
+#a #a1 #btn2{
+    height: 50px;
+    width: 200px;
+}
+#b{
+    height: 300px;
+    width: 100%;
+    background-image: url(image/pattern_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#b #b1{
+    height: 70%;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+}
+#b #b1 #b11{
+    height: 100%;
+    width: 30%;
+}
+#c{
+    margin-top: 50px;
+}
+#c #c1{
+    height: 400px;
+    width: 90%;
+    margin-top: 50px;
+}
+#c #c1 #c11{
+    height: 100%;
+    width: 31%;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+}
+#c #c1 #c11::before{
+    content: '';
+    background-color: #B4D4FF;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    transition: 1s;
+    z-index: -1;
+    border-radius: 20px;
+}
+#c #c1 #c11:hover::before{
+    height: 100%;
+}
+#c #c1 #c11:hover #sd{
+    color: white;
+}
+#c #c1 #c11 #wd{
+    color: gray;
+}
+#c #c1 #c11:hover #wd{
+    color: white;
+}
+#c #c1 #c11 #c20{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 25px;
+    background-color: #e7f9f9;
+}
+#c #c1 #c11:hover #c20{
+    background-color: white;
+}
+#d{
+    height: 600px;
+    margin-top: 100px;
+    background-image: url(image/bg_1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#d #d1{
+    height: 50%;
+    width: 45%;
+    position: relative;
+    top: 25%;
+}
+#d #d1 #d11{
+    height: 45%;
+    width: 49%;
+}
+#d #d2{
+    height: 80%;
+    width: 40%;
+    position: relative;
+    top: 10%;
+}
+#e{
+    margin-top: 100px;
+}
+#e #e1{
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+#e #e1 #e11{
+    height: 100%;
+    width: 30%;
+}
+#e #e1 #e11 #e12{
+    height: 370px;
+    width: 100%;
+    overflow: hidden;
+}
+#e #e1 #e11 #e12 img{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+#e #e1 #e11:hover #e12 img{
+    transform: scale(1.2);
+}
+#f{
+    height: 500px;
+    margin-top: 100px;
+    background-image: url(image/bg_2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#f #f1{
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: -1;
+}
+#f #f1 #f11{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+#f #f1 #f11 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+#g{
+    height: 450px;
+    background-image: linear-gradient(rgba(10, 14, 249, 0.7),rgba(10, 14, 249, 0.7)),url(image/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#g #g1{
+    width: 45%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+#h{
+    margin-top: 100px;
+    height: 350px;
+}
+#h #h1{
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+}
+#h #h1 img{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+#h #h1 img:hover{
+    transform: scale(1.2);
+}
+#i{
+    height: 300px;
+    margin-top: 100px;
+}
+#i #i1{
+    height: 100%;
+    width: 22%;
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+    #a{
+        height: 600px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 50%;
+    }
+    #b {
+        height: 300px;
+        width: 100%;
+    }
+    #b #b1{
+        height: auto;
+        width: 100%;
+        left: 1.5%;
+    }
+    #b #b1 #b11{
+        height: 200px;
+        width: 30%;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+    }
+    #c #c1{
+        height: auto;
+        width: 100%;
+      flex-wrap: wrap;
+    }
+    #c #c1 #c11{
+        height: auto;
+        width: 45%;
+        margin-top: 10px;
+    }
+    #d{
+        height: 500px;
+        width: 100%;
+    }
+    #d #d1{
+        height: auto;
+        width: 45%;
+        top: 5%;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 45%;
+    }
+    #d #d2{
+        height: auto;
+        width: 45%;
+        /* left: 10%; */
+        top: 5%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 45%;
+    }
+    #e #e1 #e11 #e12{
+        height: 350px;
+    }
+    #f{
+        height: 500px;
+        width: 100%;    
+        display: none;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    #f #f1 #f11{
+        height: auto;
+        width: 100%;
+     left: -100px;
+     display: none;
+    }
+    #g{
+        height: 400px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+       flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    #h #h1{
+        height: 350px;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #i{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #i #i1{
+        height: auto;
+        width: 22%;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    #a{
+        height: 600px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 70%;
+        left: 5%;
+    }
+    #b{
+        height: 500px;
+        width: 100%;
+    }
+    #b #b1{
+        height: auto;
+        width: 100%;
+       flex-wrap: wrap;
+        left: 2.5%;
+    }
+    #b #b1 #b11{
+        height: auto;
+        width: 45%;
+        margin-top: 5px;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+    }
+    #c #c1{
+        height: auto;
+        width: 100%;
+      flex-wrap: wrap;
+    }
+    #c #c1 #c11{
+        height: auto;
+        width: 45%;
+        margin-top: 10px;
+    }
+    #d{
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        top: 5%;
+    }
+    #d #d2{
+        height: auto;
+        width: 80%;
+        left: 10%;
+        top: 0%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 45%;
+    }
+    #e #e1 #e11 #e12{
+        height: 300px;
+    }
+    #f{
+        height: 500px;
+        width: 100%;    
+        display: none;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    #f #f1 #f11{
+        height: auto;
+        width: 100%;
+     left: -100px;
+     display: none;
+    }
+    #g{
+        height: 400px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+       flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    #h #h1{
+        height: 350px;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #i{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+       flex-wrap: wrap;
+    }
+    #i #i1{
+        height: auto;
+        width: 30%;
+    }
+}
+
+
+
+
+@media (max-width:576px) {
+    #a{
+        height: 500px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 80%;
+        left: 5%;
+    }
+    #b{
+        height: 600px;
+        width: 100%;
+    }
+    #b #b1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        left: 2.5%;
+    }
+    #b #b1 #b11{
+        height: auto;
+        width: 100%;
+        margin-top: 5px;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+    }
+    #c #c1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c1 #c11{
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #d{
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        top: 5%;
+    }
+    #d #d2{
+        height: auto;
+        width: 80%;
+        left: 10%;
+        top: 0%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 100%;
+    }
+    #f{
+        height: 500px;
+        width: 100%;    
+        display: none;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    #f #f1 #f11{
+        height: auto;
+        width: 100%;
+     left: -100px;
+     display: none;
+    }
+    #g{
+        height: 400px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    #h #h1{
+        height: 350px;
+        width: 80%;
+        margin-top: 20px;
+    }
+    #i{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+       flex-wrap: wrap;
+    }
+    #i #i1{
+        height: auto;
+        width: 45%;
+    }
+}
+
+
+
+
+@media (max-width:480px) {
+    #a{
+        height: 500px;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+    #b{
+        height: 600px;
+        width: 100%;
+    }
+    #b #b1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        left: 0;
+    }
+    #b #b1 #b11{
+        height: auto;
+        width: 100%;
+        margin-top: 5px;
+    }
+    #c{
+        height: auto;
+        width: 100%;
+    }
+    #c #c1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #c #c1 #c11{
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #d{
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        top: 5%;
+    }
+    #d #d2{
+        height: auto;
+        width: 100%;
+        top: 0%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1 #e11{
+        height: auto;
+        width: 100%;
+    }
+    #f{
+        height: 500px;
+        width: 100%;    
+        display: none;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    #f #f1 #f11{
+        height: auto;
+        width: 100%;
+     left: -100px;
+     display: none;
+    }
+    #g{
+        height: 400px;
+        width: 100%;
+    }
+    #g #g1{
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    #h #h1{
+        height: 350px;
+        width: 80%;
+        margin-top: 20px;
+    }
+    #i{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+       flex-wrap: wrap;
+    }
+    #i #i1{
+        height: auto;
+        width: 45%;
+    }
+}

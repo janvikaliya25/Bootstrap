@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nv{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+#nv #navbarNavDropdown ul li a{
+    position: relative;
+}
+#nv #navbarNavDropdown ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #b1b493;
+    transition: 1s;
+}
+#nv #navbarNavDropdown ul li a:hover::before{
+    width: 100%;
+}
+#a{
+    height: 700px;
+    position: relative;
+    display: flex;
+}
+#a #a1{
+    height: 300px;
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    z-index: 1;
+}
+#a #a1 #btn1{
+    height: 40px;
+    color: white;
+    width: 120px;
+    background-color: #b1b493;
+}
+#a #a1 #btn2{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #b1b493;
+    color: #b1b493;
+}
+#a #a1 #btn2:hover{
+    background-color: #b1b493;
+    color: white;
+}
+#a #a2{
+    height: 100%;
+    width: 60%;
+    background-image: url(image/7.jpg);
+    position: absolute;
+    left: 40%;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 14% 50%, 0% 0%);
+}
+#b{
+    height: 200px;
+    background-color: #EFECEC;
+}
+#c {
+    height: 700px;
+}
+#c #childe1 {
+    width: 45%;
+    background-image: url(image/10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#c #childe2 #btn1 {
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    background-color: #bfbebe;
+    margin-top: 50px;
+}
+#c #childe2 #btn1:hover {
+    background-color: #b1b493;
+    color: black;
+}
+#d{
+    background-color:  #fefbfb;
+    margin-top: 100px;
+}
+#d h6{
+    color: #b1b493;
+}
+#d #d1{
+    height: 300px;
+    width: 80%;
+}
+#d #d1 #d11{
+    width: 48%;
+}
+#e{
+    margin-top: 100px;
+}
+#e #e1{
+    height: 500px;
+    width: 85%;
+}
+#e #e1 #e12{
+    height: 45%;
+    width: 22%;
+    border-radius: 20px;
+}
+#e #e1 #e12:hover{
+    background-color: #b1b493;
+}
+#e #e1 #e12:hover h5{
+    color: white;
+}
+#e #e1 #e12:hover p{
+    color: white;
+}
+#f{
+    margin-top: 100px;
+}
+#f #f1{
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+#f #f1 #f12{
+    height: 45%;
+    width: 22%;
+    overflow: hidden;
+}
+#f #f1 #f12 img{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+#f #f1 #f12 img:hover{
+    transform: scale(1.2);
+}
+#g{
+    height: 800px;
+    margin-top: 100px;
+}
+#g #g1{
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+#g #g1 #g22{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#g #g1 #g22 #g20{
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+#g #g1 #g22 #g20 img{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+#g #g1 #g22 #g20 img:hover{
+    transform: scale(1.2);
+}
+#g #g1 #g22 h3:hover{
+    color: #b1b493;
+}
+#h{
+    margin-top: 100px;
+    background-color: #fefbfb;
+    height: 700px;
+}
+#h #h1{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+#h #h1 #h11{
+    height: 100%;
+    width: 48%;
+    background-color: #EFECEC;
+}
+#h #h1 #h11 input{
+    background-color: transparent;
+    height: 50px;
+}
+#h #h1 #h11 #txt{
+    height: 100px;
+}
+#h #h1 #h11 #btn2{
+    background-color: #b1b493;
+    height: 50px;
+    color: white;
+    width: 200px;
+}
+#h #h1 #h11 #btn2:hover{
+    background-color: transparent;
+    color: #b1b493;
+    border: 1px solid #b1b493;
+}
+#h #h1 #h12{
+    height: 100%;
+    width: 48%;
+    background-image: url(image/1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    #a{
+       height: auto;
+       width: 100%;
+   }
+   #a #a1{
+       height: auto;
+       width: 60%;
+       left: 10%;
+       margin-top: 200px;
+   }
+   #a #a2{
+       height: 700px;
+       width: 60%;
+       left: 40%;
+       /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0); */
+   } 
+   #b{
+       height: auto;
+       width: 100%;
+       margin-top: 700px;
+   }
+   #b #b1{
+       height: auto;
+       width: 100%;
+       display: flex;
+   }
+   #b #b1 #b7{
+       height: auto;
+       width: 100%;
+   } 
+   .c{
+       height: auto;
+       width: 100%;
+       display: flex;
+       /* flex-direction: column */
+   }
+   #c #childe1{
+       
+   }
+   #c #childe2{
+       height: auto;
+       width: 50%;
+   }
+   #d{
+       height: auto;
+       width: 100%;
+       margin-top: 50px;
+   }
+   #d #d1{
+       height: auto;
+       width: 100%;
+   }
+   #d #d1 #d11{
+       height: auto;
+       width: 45%;
+   }
+   #e{
+       height: auto;
+       width: 100%;
+   }
+   #e h1{
+       font-size: 25px;
+   }
+   #e #e1{
+       height: auto;
+       width: 100%;
+   }
+   #e #e1 #e12{
+       height: auto;
+       width: 45%;
+       margin-top: 20px;
+   }
+   #f{
+       height: auto;
+       width: 100%;
+   }
+   #f #f1{
+       height: auto;
+       width: 100%;
+   }
+   #f #f1 #f12{
+       height: 350px;
+       width: 45%;
+       margin-top: 20px;
+   }
+   #g{
+       height: auto;
+       width: 100%;
+       margin-top: 80px;
+   }
+   #g #g1{
+       height: auto;
+       width: 100%;
+       flex-direction: column;
+       margin-top: 20px;
+   }
+   #g #g1 #g22{
+       height: auto;
+       width: 70%;
+       margin-top: 30px;
+   }
+   #h{
+       height: auto;
+       width: 100%;
+   }
+   #h #h1{
+       height: auto;
+       width: 100%;
+       /* flex-direction: column; */
+   }
+   #h #h1 #h11{
+       height: 500px;
+       width: 100%;
+   }
+   #h #h1 #h12{
+       height: 500px;
+       width: 100%;
+   }
+}
+
+
+
+
+@media (max-width:768px) {
+     #a{
+        height: auto;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 60%;
+        left: 10%;
+        margin-top: 200px;
+    }
+    #a #a2{
+        height: 700px;
+        width: 60%;
+        left: 40%;
+        /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0); */
+    } 
+    #b{
+        height: auto;
+        width: 100%;
+        margin-top: 700px;
+    }
+    #b #b1{
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    #b #b1 #b7{
+        height: auto;
+        width: 100%;
+    } 
+    .c{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #c #childe1{
+        display: none;
+    }
+    #c #childe2{
+        height: auto;
+        width: 100%;
+    }
+    #d{
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 100%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+    }
+    #e h1{
+        font-size: 25px;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+    }
+    #e #e1 #e12{
+        height: auto;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1 #f12{
+        height: 350px;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+        margin-top: 80px;
+    }
+    #g #g1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    #g #g1 #g22{
+        height: auto;
+        width: 70%;
+        margin-top: 30px;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+    }
+    #h #h1{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    #h #h1 #h11{
+        height: auto;
+        width: 100%;
+    }
+    #h #h1 #h12{
+        height: 500px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width:576px) {
+    #a{
+        height: auto;
+        width: 100%;
+    }
+    #a #a1{
+        height: auto;
+        width: 100%;
+        left: 0;
+    }
+    #a #a2{
+        height: 700px;
+        width: 100%;
+        left: 0;
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        margin-top: 700px;
+    }
+    #b #b1{
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    #b #b1 #b7{
+        height: auto;
+        width: 100%;
+    } 
+    .c{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #c #childe1{
+        display: none;
+    }
+    #c #childe2{
+        height: auto;
+        width: 100%;
+    }
+    #d{
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 100%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+    }
+    #e h1{
+        font-size: 25px;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1 #e12{
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #f #f1 #f12{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+        margin-top: 80px;
+    }
+    #g #g1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    #g #g1 #g22{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+    }
+    #h #h1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #h #h1 #h11{
+        height: auto;
+        width: 100%;
+    }
+    #h #h1 #h12{
+        height: 500px;
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:480px) {
+    #a{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #a #a1{
+        height: auto;
+        width: 100%;
+        left: 0;
+    }
+    #a #a2{
+        height: 700px;
+        width: 100%;
+        left: 0;
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    }
+    #b{
+        height: auto;
+        width: 100%;
+        margin-top: 700px;
+    }
+    #b #b1{
+        height: auto;
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    #b #b1 #b7{
+        height: auto;
+        width: 100%;
+    } 
+    .c{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #c #childe1{
+        display: none;
+    }
+    #c #childe2{
+        height: auto;
+        width: 100%;
+    }
+    #d{
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+    }
+    #d #d1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #d #d1 #d11{
+        height: auto;
+        width: 100%;
+    }
+    #e{
+        height: auto;
+        width: 100%;
+    }
+    #e h1{
+        font-size: 25px;
+    }
+    #e #e1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #e #e1 #e12{
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #f{
+        height: auto;
+        width: 100%;
+    }
+    #f #f1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #f #f1 #f12{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #g{
+        height: auto;
+        width: 100%;
+        margin-top: 80px;
+    }
+    #g #g1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    #g #g1 #g22{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #h{
+        height: auto;
+        width: 100%;
+    }
+    #h #h1{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    #h #h1 #h11{
+        height: auto;
+        width: 100%;
+    }
+    #h #h1 #h12{
+        height: 500px;
+        width: 100%;
+    }
+}
